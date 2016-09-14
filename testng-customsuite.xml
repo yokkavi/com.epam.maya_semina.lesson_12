@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+	<listeners>
+		<listener class-name="com.epam.maya_semina.utils.ScreenShotListener" />
+	</listeners>
+	<test verbose="2" name="Default test">
+		<classes>
+			<class name="com.epam.maya_semina.test.MailboxTestPatterns" />
+			<parameter name="url" value="http://письмо.рф" />
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->

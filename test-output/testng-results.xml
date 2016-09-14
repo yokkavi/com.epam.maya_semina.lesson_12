@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO com.epam.maya_semina.utils.ScreenShot: Delete all files from folderD:\Maya\workspace\com.epam.maya_semina.lesson_12\test-output\html\screenshots<br>]]>
+    </line>
+    <line>
+      <![CDATA[WARN com.epam.maya_semina.test.BaseTest: start: setUp<br>]]>
+    </line>
+    <line>
+      <![CDATA[WARN com.epam.maya_semina.test.BaseTest: finish: setUp<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO com.epam.maya_semina.test.BaseTest: start: 'navigateToMailPageTest'<br>]]>
+    </line>
+    <line>
+      <![CDATA[INFO com.epam.maya_semina.test.BaseTest: finish: 'navigateToMailPageTest'<br>]]>
+    </line>
+    <line>
+      <![CDATA[WARN com.epam.maya_semina.test.BaseTest: start: close<br>]]>
+    </line>
+    <line>
+      <![CDATA[WARN com.epam.maya_semina.test.BaseTest: finish: close<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5191" started-at="2016-09-14T13:02:06Z" finished-at="2016-09-14T13:02:11Z">
+    <groups>
+      <group name="authorization">
+        <method signature="BaseTest.navigateToMailPageTest()[pri:0, instance:com.epam.maya_semina.test.BaseTest@3159c4b8]" name="navigateToMailPageTest" class="com.epam.maya_semina.test.BaseTest"/>
+      </group> <!-- authorization -->
+    </groups>
+    <test name="Default test" duration-ms="5191" started-at="2016-09-14T13:02:06Z" finished-at="2016-09-14T13:02:11Z">
+      <class name="com.epam.maya_semina.test.BaseTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.epam.maya_semina.test.BaseTest@3159c4b8]" name="setUp" is-config="true" duration-ms="4717" started-at="2016-09-14T16:02:06Z" finished-at="2016-09-14T16:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://Письмо.рф]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[WARN com.epam.maya_semina.test.BaseTest: start: setUp<br>]]>
+            </line>
+            <line>
+              <![CDATA[WARN com.epam.maya_semina.test.BaseTest: finish: setUp<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToMailPageTest()[pri:0, instance:com.epam.maya_semina.test.BaseTest@3159c4b8]" name="navigateToMailPageTest" duration-ms="463" started-at="2016-09-14T16:02:11Z" finished-at="2016-09-14T16:02:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[INFO com.epam.maya_semina.test.BaseTest: start: 'navigateToMailPageTest'<br>]]>
+            </line>
+            <line>
+              <![CDATA[INFO com.epam.maya_semina.test.BaseTest: finish: 'navigateToMailPageTest'<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToMailPageTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.epam.maya_semina.test.BaseTest@3159c4b8]" name="close" is-config="true" duration-ms="13" started-at="2016-09-14T16:02:11Z" finished-at="2016-09-14T16:02:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[WARN com.epam.maya_semina.test.BaseTest: start: close<br>]]>
+            </line>
+            <line>
+              <![CDATA[WARN com.epam.maya_semina.test.BaseTest: finish: close<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.epam.maya_semina.test.BaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
