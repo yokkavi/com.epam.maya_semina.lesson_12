@@ -23,8 +23,9 @@ import com.epam.maya_semina.ui.pageObject.MailboxAuthorizationPage;
 import com.epam.maya_semina.ui.pageObject.MainPage;
 import com.epam.maya_semina.ui.webDriver.DriverSingletone;
 import com.epam.maya_semina.utils.ScreenShot;
+import com.epam.maya_semina.utils.ScreenShotListener;
 
-@Listeners({ HTMLReporter.class }) // , ScreenShotListener.class})//,
+@Listeners({ HTMLReporter.class , ScreenShotListener.class})//,
 // TestCaseListener.class }) //
 
 public class BaseTest {
